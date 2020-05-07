@@ -35,7 +35,7 @@ import com.google.appinventor.components.common.*;
 import com.google.appinventor.components.runtime.*; 
 import com.google.appinventor.components.runtime.util.*; 
  
-@UsesLibraries(libraries = "ads.jar, base.jar, customtabs.jar, identifier.jar, basement.jar,bgass.jar, lite.jar,  measurement-base.jar, measurement-sdk-api.jar")
+@UsesLibraries(libraries = "ads.jar, base.jar, customtabs.jar, identifier.jar, basement.jar, gass.jar, lite.jar,  measurement-base.jar, measurement-sdk-api.jar")
 @UsesActivities(activities = {@ActivityElement(configChanges = "keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize", exported = "false", name = "com.google.android.gms.ads.AdActivity", theme = "@android:style/Theme.Translucent")})
 @UsesPermissions(permissionNames = "android.permission.INTERNET, android.permission.ACCESS_NETWORK_STATE, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION")
 @DesignerComponent(category = ComponentCategory.EXTENSION, description = "AdmobAd Ad Extension <br>Set Screen Responsive<br>Work On Min API : 14 <br>by kangris", iconName = "images/extension.png", nonVisible = true, version = 1) 
